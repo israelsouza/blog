@@ -1,6 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
+
+// Fetch all markdown files from the 'zettle' directory
+const posts = await Astro.glob("./zettle/*.md");
 ---
 
 <Layout title="Welcome to Astro">
@@ -17,12 +20,17 @@ import Card from "../components/Card.astro";
 		</p>
 
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-			<Card
-				href="/gemini-pro-3"
-				title="Why Gemini Pro 3 is Great"
-				description="Discover the game-changing features of the latest Gemini model."
-				zettelType="Literature"
-			/>
+			{
+				posts.map((post) => (
+					<Card
+						href={post.url ?? "#"}
+						title={post.frontmatter.title}
+						description={post.frontmatter.description}
+						zettelType={post.frontmatter.zettelType}
+						tags={post.frontmatter.tags}
+					/>
+				))
+			}
 		</div>
 	</div>
 </Layout>

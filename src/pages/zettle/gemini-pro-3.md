@@ -1,7 +1,8 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: "Why Gemini Pro 3 is Absolutely Game-Changing"
 description: "Exploring the groundbreaking features of the new Gemini Pro 3 model."
+zettelType: "Permanent"
 ---
 
 # Why Gemini Pro 3 is Absolutely Game-Changing
