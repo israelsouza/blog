@@ -7,7 +7,7 @@ zettelType: "Permanent"
 
 # Why Gemini Pro 3 is Absolutely Game-Changing
 
-The AI landscape has shifted once again with the release of **Gemini Pro 3**. It’s not just an iteration; it’s a revelation. Here is why it is arguably the greatest multimodal model we have ever seen.
+The [AI](https://google.com) landscape has shifted once again with the release of **Gemini Pro 3**. It’s not just an iteration; it’s a revelation. Here is why it is arguably the greatest multimodal model we have ever seen.
 
 ## 1. Unmatched Multimodal Reasoning
 
