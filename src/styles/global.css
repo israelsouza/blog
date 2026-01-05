@@ -30,3 +30,57 @@
 .dark .prose a[target="_blank"]::after {
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%2393c5fd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>');
 }
+
+/* ===== Wikilinks (Estilo Obsidian) ===== */
+
+/* [[Wikilink]] - Links internos para outras notas */
+.prose .wiki-link {
+  color: #8b5cf6;
+  /* Roxo vibrante */
+  text-decoration: none;
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+  background-color: rgba(139, 92, 246, 0.1);
+  transition: all 0.2s ease;
+}
+
+.prose .wiki-link:hover {
+  background-color: rgba(139, 92, 246, 0.2);
+  text-decoration: underline;
+}
+
+.dark .prose .wiki-link {
+  color: #a78bfa;
+  background-color: rgba(167, 139, 250, 0.15);
+}
+
+.dark .prose .wiki-link:hover {
+  background-color: rgba(167, 139, 250, 0.25);
+}
+
+/* [[Nota Nova]] - Links para notas que ainda não existem */
+.prose .wiki-link-new {
+  color: #f59e0b;
+  /* Amarelo/Laranja - chama atenção */
+  text-decoration: none;
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+  background-color: rgba(245, 158, 11, 0.1);
+  border-bottom: 1px dashed rgba(245, 158, 11, 0.5);
+  transition: all 0.2s ease;
+}
+
+.prose .wiki-link-new:hover {
+  background-color: rgba(245, 158, 11, 0.2);
+  border-bottom-style: solid;
+}
+
+.dark .prose .wiki-link-new {
+  color: #fbbf24;
+  background-color: rgba(251, 191, 36, 0.15);
+  border-bottom-color: rgba(251, 191, 36, 0.5);
+}
+
+.dark .prose .wiki-link-new:hover {
+  background-color: rgba(251, 191, 36, 0.25);
+}
