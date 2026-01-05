@@ -25,4 +25,7 @@ pnpm-debug.log*
 
 notes.md
 src/pages/.obsidian
+src/pages/templates
+
+
 .vscode

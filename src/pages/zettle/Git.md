@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownLayout.astro
 title: Git
 description:
-zettelType:
+zettelType: Fleeting
 tags:
 ---
 #zettle 

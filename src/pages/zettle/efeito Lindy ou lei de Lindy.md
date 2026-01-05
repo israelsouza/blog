@@ -1,9 +1,7 @@
 ---
 layout: ../../layouts/MarkdownLayout.astro
-title: efeito Lindy ou lei de Lindy's
-description:
-zettelType:
-tags:
+title: efeito Lindy ou lei de Lindy
+zettelType: Fleeting
 ---
 #zettle 
 
