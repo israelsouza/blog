@@ -1,9 +1,10 @@
 ---
-layout: "../../layouts/MarkdownLayout.astro"
-title: "Docker"
-description: "Understanding Docker containers as toolboxes."
-zettelType: "Permanent"
+layout: ../../layouts/MarkdownLayout.astro
+title: Docker
+description: Understanding Docker containers as toolboxes.
+zettelType: Permanent
 ---
+#zettle
 
 Imagina que você quer ter uma caixa com uma ferramenta. Hoje, por exemplo, você teria que gastar tempo e energia para ter a caixa e a ferramenta, correndo riscos da fabricante ter um manual obsoleto devido a novas linhas para a ferramenta. 
 
